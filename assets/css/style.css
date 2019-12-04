@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    padding-top: 200px;
+}
+
+.main {
+    margin: auto;
+    height: 450px;
+    width: 300px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.display_wrapper {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 5px;
+}
+
+.display {
+    font-size: 23px;
+    text-align: right;
+    border-radius: 10px;
+    color: black;
+}
+
+.minidisplay_wrapper {
+    padding: 10px 10px;
+}
+
+.mini_display {
+    text-align: right;
+    color: black;
+    background: #a0a0a0;
+    font-size: 14px;
+    direction: ltr;
+}
+
+.buttons_wrapper {
+    margin: auto;
+}
+
+.bnt_line {
+    display: flex;
+}
+
+.button_block {
+    font-size: 30px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border: 2px solid;
+    user-select: none;
+    border-radius: 10px;  
+}
+
+.bttn_C {
+    color: red;
+}
+
+.button_block:hover {
+    cursor: pointer;
+}
