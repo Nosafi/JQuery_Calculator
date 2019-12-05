@@ -3,11 +3,14 @@
     <head>
         <title>My Calc</title>
         <link href="./assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,600,700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <audio id="click_sound" src="./assets/audio/click.mp3"></audio>
+
         <div class="main">
             <div class="display_wrapper">
-                <input id="display_max" class="display" type="text">
+                <input id="display_max" class="display" type="text" disabled>
                 <div class="minidisplay_wrapper">
                     <input id="display_min" class="display mini_display" type="text" disabled>
                 </div>
